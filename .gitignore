@@ -3,6 +3,14 @@
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*/__pycache__/
+*/*/__pycache__/
+
+__MACOSX/
+results/
+3rdparty/
+
+.tags*
 *.py[cod]
 
 # C extensions
@@ -108,4 +116,3 @@ profiler/
 venv/
 3rdparty
 *.txt
-
