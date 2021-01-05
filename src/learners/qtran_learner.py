@@ -2,7 +2,6 @@ import copy
 from components.episode_buffer import EpisodeBatch
 from modules.mixers.vdn import VDNMixer
 from modules.mixers.qmix import QMixer
-from modules.mixers.qmix_ablations import QMixerLin, QMixerNS, VDNState
 from modules.mixers.qtran import QTranAlt, QTranBase
 import torch as th
 from torch.optim import RMSprop, Adam
