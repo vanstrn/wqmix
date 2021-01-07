@@ -115,4 +115,3 @@ profiler/
 .DS_Store
 venv/
 3rdparty
-*.txt
