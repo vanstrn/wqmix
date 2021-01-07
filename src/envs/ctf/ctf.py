@@ -37,8 +37,8 @@ class CTF(MultiAgentEnv):
         #Building the CTF environment.
         self.env = gym.make("cap-v0",map_size=map_size, config_path=self.game_config)
 
-        self.state_size = [map_size,map_size,nchannels]
-        self.obs_size = [map_size*2-1,map_size*2-1,nchannels]
+        self.state_size = [nchannels,map_size,map_size]
+        self.obs_size = [nchannels,map_size*2-1,map_size*2-1]
 
         self.env.reset(config_path=self.game_config, policy_red=policy.Roomba())
         # Define the agents and their action space
@@ -96,7 +96,7 @@ class CTF(MultiAgentEnv):
         # Either return the state as a list of entities...
         # ... or return the entire grid
 
-        return self.env.get_obs_blue.astype(np.float32)
+        return np.swapaxes(self.env.get_obs_blue.astype(np.float32),0,2)
 
     def get_obs_intersect_pair_size(self):
         return 2 * self.get_obs_size()
@@ -166,6 +166,8 @@ class CTF_v2(CTF):
         self.args = args
         args.pop("seed")
 
+        map_size = args.pop("map_size")
+        nchannels = 6
         self.game_config = configparser.ConfigParser()
         for k,v in args.items():
             self.game_config[k] = v
@@ -173,8 +175,6 @@ class CTF_v2(CTF):
 
         self.capture_action = getattr(args, "capture_action", False)
 
-        map_size = args.pop("map_size")
-        nchannels = 6
         # exit()
 
         #Building the CTF environment.
