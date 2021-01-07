@@ -76,3 +76,5 @@ dependencies:
     - whichcraft==0.6.1
     - wrapt==1.12.1
     - zipp==1.2.0
+    - gym
+    - git+https://github.com/raide-project/ctf_research.git@game/convoy

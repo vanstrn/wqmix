@@ -81,11 +81,12 @@ class CTF(MultiAgentEnv):
         padder = padder[:ch]
 
         cx, cy = (W-1)//2, (H-1)//2
-        states = np.zeros([1, H, W, len(padder)])
+        states = np.zeros([ H, W, len(padder)])
         states[:,:,:] = np.array(padder)
         x, y = self.env.get_team_blue[agent_id].get_loc()
-        states[0,max(cx-x,0):min(cx-x+olx,W),max(cy-y,0):min(cy-y+oly,H),:] = s0
-        return np.swapaxes(states,1,3)
+        states[max(cx-x,0):min(cx-x+olx,W),max(cy-y,0):min(cy-y+oly,H),:] = s0
+        print(np.swapaxes(states,0,2).shape)
+        return np.swapaxes(states,0,2)
 
     def get_obs(self):
         agents_obs = [self.get_obs_agent(i) for i in range(self.n_agents)]
