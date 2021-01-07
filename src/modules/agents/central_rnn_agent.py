@@ -22,3 +22,32 @@ class CentralRNNAgent(nn.Module):
         q = self.fc2(h)
         q = q.reshape(-1, self.args.n_actions, self.args.central_action_embed)
         return q, h
+
+
+class ConvCentralRNNAgent(nn.Module):
+    def __init__(self, input_shape, args):
+        super(ConvCentralRNNAgent, self).__init__()
+        self.args = args
+        strides = 2
+        kernel_size = 6
+        self.conv1 = nn.Conv2d(6,16,kernel_size,stride=strides)
+        self.conv2 = nn.Conv2d(16,16,kernel_size,stride=strides)
+        self.flatten = nn.Flatten()
+        self.fc1 = nn.Linear(16*2*2, args.rnn_hidden_dim)
+        self.rnn = nn.GRUCell(args.rnn_hidden_dim, args.rnn_hidden_dim)
+        self.fc2 = nn.Linear(args.rnn_hidden_dim,  args.n_actions * args.central_action_embed)
+
+    def init_hidden(self):
+        # make hidden states on same device as model
+        return self.fc1.weight.new(1, self.args.rnn_hidden_dim).zero_()
+
+    def forward(self, inputs, hidden_state):
+        x = F.relu(self.conv1(inputs))
+        x = F.relu(self.conv2(x))
+        x = self.flatten(x)
+        x = F.relu(self.fc1(x))
+        h_in = hidden_state.reshape(-1, self.args.rnn_hidden_dim)
+        h = self.rnn(x, h_in)
+        q = self.fc2(h)
+        q = q.reshape(-1, self.args.n_actions, self.args.central_action_embed)
+        return q, h

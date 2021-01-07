@@ -91,10 +91,14 @@ class BasicMAC:
         return inputs
 
     def _get_input_shape(self, scheme):
+        print(scheme)
         input_shape = scheme["obs"]["vshape"]
-        if self.args.obs_last_action:
-            input_shape += scheme["actions_onehot"]["vshape"][0]
-        if self.args.obs_agent_id:
-            input_shape += self.n_agents
+        if isinstance(input_shape,int):
+            if self.args.obs_last_action:
+                input_shape += scheme["actions_onehot"]["vshape"][0]
+            if self.args.obs_agent_id:
+                input_shape += self.n_agents
+            return input_shape
 
-        return input_shape
+        else:
+            return input_shape
