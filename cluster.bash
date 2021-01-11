@@ -16,8 +16,7 @@ do
   if [ $i = 1 ]
   then
     echo "Creating File for Batch"
-    echo "
-#!/bin/bash
+    echo "#!/bin/bash
 #SBATCH -p eng-research
 #SBATCH --job-name=$Name.$fileCounter
 #SBATCH -t 2880
