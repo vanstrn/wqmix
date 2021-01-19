@@ -21,9 +21,9 @@ class MultinomialActionSelector():
     def select_action(self, agent_inputs, avail_actions, t_env, test_mode=False):
         masked_policies = agent_inputs.clone()
         masked_policies[avail_actions == 0.0] = 0.0
-        print("Here multinomial")
+        # print("Here multinomial")
 
-        print(masked_policies)
+        # print(masked_policies)
 
 
         self.epsilon = self.schedule.eval(t_env)
