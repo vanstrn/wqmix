@@ -78,3 +78,4 @@ dependencies:
     - zipp==1.2.0
     - gym
     - git+https://github.com/raide-project/ctf_research.git@game/convoy
+    - git+https://github.com/vanstrn/multiagent-particle-envs.git
