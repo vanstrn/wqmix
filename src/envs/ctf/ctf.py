@@ -85,7 +85,6 @@ class CTF(MultiAgentEnv):
         states[:,:,:] = np.array(padder)
         x, y = self.env.get_team_blue[agent_id].get_loc()
         states[max(cx-x,0):min(cx-x+olx,W),max(cy-y,0):min(cy-y+oly,H),:] = s0
-        print(np.swapaxes(states,0,2).shape)
         return np.swapaxes(states,0,2)
 
     def get_obs(self):
@@ -95,7 +94,6 @@ class CTF(MultiAgentEnv):
     def get_state(self):
         # Either return the state as a list of entities...
         # ... or return the entire grid
-
         return np.swapaxes(self.env.get_obs_blue.astype(np.float32),0,2)
 
     def get_obs_intersect_pair_size(self):

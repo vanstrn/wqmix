@@ -51,3 +51,4 @@ training_iters: 1 # Number of times to train after doing $(batch_size_run) episo
 repeat_id: 1
 label: "default_label"
 seed: null
+reshape: True 

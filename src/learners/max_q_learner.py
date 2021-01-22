@@ -1,7 +1,7 @@
 import copy
 from components.episode_buffer import EpisodeBatch
 from modules.mixers.vdn import VDNMixer
-from modules.mixers.qmix import QMixer
+from modules.mixers.qmix import QMixer,QMixer_CNN
 from modules.mixers.qmix_central_no_hyper import QMixerCentralFF
 from modules.mixers.qmix_central_attention import QMixerCentralAtten
 import torch as th
@@ -28,6 +28,8 @@ class MAXQLearner:
                 self.mixer = VDNMixer()
             elif args.mixer == "qmix":
                 self.mixer = QMixer(args)
+            elif args.mixer == "qmix_cnn":
+                self.mixer = QMixer_CNN(args)
             else:
                 raise ValueError("Mixer {} not recognised.".format(args.mixer))
             self.mixer_params = list(self.mixer.parameters())

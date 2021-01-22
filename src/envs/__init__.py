@@ -18,3 +18,17 @@ REGISTRY["stag_hunt"] = partial(env_fn, env=StagHunt)
 REGISTRY["sc2"] = partial(env_fn, env=StarCraft2Env)
 REGISTRY["ctf"] = partial(env_fn, env=CTF)
 REGISTRY["ctf2"] = partial(env_fn, env=CTF_v2)
+
+
+import multiagent
+from .MAPredatorPreyWrappers import RandomPreyActions,PredatorPreyTerminator
+import gym
+
+def env_fn2( **kwargs):
+    print(kwargs)
+    env = gym.make(kwargs.get('env_args').get("name"))
+    env = RandomPreyActions(env)
+    env = PredatorPreyTerminator(env)
+    return env
+
+REGISTRY["predator_prey"] = partial(env_fn2)
