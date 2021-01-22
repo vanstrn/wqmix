@@ -51,6 +51,17 @@ class ConvCentralRNNAgent(nn.Module):
                         nn.Linear(1152,self.embedding_dim),
                         nn.ReLU(),
                         )
+        elif input_shape == [6,19,19]:
+            self.embedding_network = nn.Sequential(nn.Conv2d(6,16,5,stride=2),
+                        nn.ReLU(),
+                        nn.Conv2d(16,32,3,stride=1),
+                        nn.MaxPool2d(2),
+                        nn.Conv2d(32,64,2,stride=1),
+                        nn.ReLU(),
+                        nn.Flatten(),
+                        nn.Linear(256,self.embedding_dim),
+                        nn.ReLU(),
+                        )
         else:
             raise Exception("Invalid Input Size for Convolutions: {}".format(input_shape))
         self.fc1 = nn.Linear(self.embedding_dim, args.rnn_hidden_dim)

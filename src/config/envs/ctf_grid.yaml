@@ -1,10 +1,10 @@
 env: ctf
 
 env_args:
-  map_size: 20
+  map_size: 10
   elements:
-    NUM_BLUE: 1
-    NUM_RED: 1
+    NUM_BLUE: 2
+    NUM_RED: 0
     NUM_BLUE_UAV: 0
     NUM_RED_UAV: 0
 
@@ -23,7 +23,7 @@ env_args:
     SAVE_BOARD_RGB: False
     RESPAWN_AGENT_DEAD: True
 
-test_nepisode: 32
+test_nepisode: 16
 test_interval: 10000
 log_interval: 2000
 runner_log_interval: 2000

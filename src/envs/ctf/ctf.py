@@ -144,7 +144,7 @@ class CTF(MultiAgentEnv):
 
     def render(self):
         # TODO!
-        pass
+        self.env.render()
 
     def seed(self):
         raise NotImplementedError

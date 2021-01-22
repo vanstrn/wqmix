@@ -90,6 +90,17 @@ class QMixer_CNN(nn.Module):
                         nn.Linear(256,self.embed_dim),
                         nn.ReLU(),
                         )
+        elif self.state_dim == [6,10,10]:
+            self.embedding_network = nn.Sequential(nn.Conv2d(6,16,5,stride=1),
+                        nn.ReLU(),
+                        nn.Conv2d(16,32,3,stride=1),
+                        nn.MaxPool2d(2),
+                        nn.Conv2d(32,64,2,stride=1),
+                        nn.ReLU(),
+                        nn.Flatten(),
+                        nn.Linear(64,self.embed_dim),
+                        nn.ReLU(),
+                        )
         else:
             raise Exception("Invalid Input Size for Convolutions: {}".format(self.state_dim))
 
