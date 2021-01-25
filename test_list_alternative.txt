@@ -3,6 +3,6 @@ python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=bane
 python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=6h_vs_8z w=0.5 name=wqmix_6h_vs_8z_1 t_max=20000000 & \
 disown
 
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m_1 t_max=20000000 && \
+python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m_1 t_max=20000000 ; \
 python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor_1 t_max=20000000 & \
 disown

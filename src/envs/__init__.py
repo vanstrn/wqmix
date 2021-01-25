@@ -25,10 +25,17 @@ from .MAPredatorPreyWrappers import RandomPreyActions,PredatorPreyTerminator
 import gym
 
 def env_fn2( **kwargs):
-    print(kwargs)
     env = gym.make(kwargs.get('env_args').get("name"))
     env = RandomPreyActions(env)
     env = PredatorPreyTerminator(env)
     return env
 
 REGISTRY["predator_prey"] = partial(env_fn2)
+from .MAPredatorPreyWrappers import CooperativeNavigation
+
+def env_fn3( **kwargs):
+    env = gym.make(kwargs.get('env_args').get("name"))
+    env=CooperativeNavigation(env)
+    return env
+
+REGISTRY["cooperative_navigation"] = partial(env_fn3)
