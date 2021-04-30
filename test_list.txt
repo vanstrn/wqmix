@@ -34,3 +34,14 @@ python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c
 python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2_1 t_max=10000000  && \
 python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z_1 t_max=10000000 & \
 disown
+
+
+
+
+export CUDA_VISIBLE_DEVICES=0; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=10000000 buffer_cpu_only=true &>/dev/null & disown
+export CUDA_VISIBLE_DEVICES=1; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m  t_max=10000000 buffer_cpu_only=true &>/dev/null & disown
+export CUDA_VISIBLE_DEVICES=0; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=10000000 buffer_cpu_only=true &>/dev/null & disown
+export CUDA_VISIBLE_DEVICES=1; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m  t_max=10000000 buffer_cpu_only=true &>/dev/null & disown
+
+export CUDA_VISIBLE_DEVICES=0; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=10000000 buffer_cpu_only=true
+export CUDA_VISIBLE_DEVICES=1; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=10000000 buffer_cpu_only=true

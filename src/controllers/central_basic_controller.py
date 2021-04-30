@@ -52,12 +52,16 @@ class CentralBasicMAC:
                 inputs[0] = (batch["state"][:,t].unsqueeze(1).repeat(1,self.args.n_agents,1))  # b1av
                 # inputs.append(batch["state"][:,t].unsqueeze(1).repeat(1,self.args.n_agents,1))  # b1av
             if self.args.obs_last_action:
+                # print(inputs.shape)
                 if t == 0:
                     inputs.append(th.zeros_like(batch["actions_onehot"][:, t]))
                 else:
                     inputs.append(batch["actions_onehot"][:, t-1])
+                # print(inputs.shape)
             if self.args.obs_agent_id:
+                # print(inputs.shape)
                 inputs.append(th.eye(self.n_agents, device=batch.device).unsqueeze(0).expand(bs, -1, -1))
+                # print(inputs.shape)
 
             inputs = th.cat([x.reshape(bs*self.n_agents, -1) for x in inputs], dim=1)
             return inputs

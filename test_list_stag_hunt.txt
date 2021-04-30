@@ -1,4 +1,0 @@
-python src/main.py --config=ow_qmix --env-config=pred_prey_punish with w=0.5 name=wqmix_ppp_1
-python src/main.py --config=qtran --env-config=pred_prey_punish with name=qtran_ppp_1
-python src/main.py --config=qmix_smac --env-config=pred_prey_punish with name=qmix_ppp_1
-python src/main.py --config=ddpg --env-config=pred_prey_punish with name=qmix_ppp_1

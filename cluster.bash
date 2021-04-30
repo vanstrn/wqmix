@@ -13,10 +13,14 @@ fileCounter=1
 i=1
 while IFS= read -r line
 do
-  if [ $i = 1 ]
-  then
-    echo "Creating File for Batch"
-    echo "#!/bin/bash
+  echo ${line:0:1}
+  if [[ ${line:0:1} == "#" || ${line:0:1} == "" ]] ;
+  then  echo "Skipped Line"
+  else
+    if [ $i = 1 ]
+    then
+      echo "Creating File for Batch"
+      echo "#!/bin/bash
 #SBATCH -p eng-research
 #SBATCH --job-name=$Name.$fileCounter
 #SBATCH -t 2880
@@ -38,17 +42,19 @@ which pip
 conda env list
 pwd
 " >> batch.slurm
-  fi
-  if [ $i -lt $BatchSize ]; then
-    echo "${line} &" >> batch.pbs
-    i=$((i+1))
-  else
-    echo "${line}" >> batch.slurm
-    echo "Sending Batch to the queue"
-    sbatch batch.slurm
-    echo "Deleting File for Batch"
-    rm batch.slurm
-    i=1
-    fileCounter=$((fileCounter+1))
+    fi
+    if [ $i -lt $BatchSize ]; then
+      echo "${line} &" >> batch.slurm
+      i=$((i+1))
+    else
+        echo "${line} &"  >> batch.slurm
+        echo "wait"  >> batch.slurm
+        echo "Sending Batch to the queue"
+        sbatch batch.slurm
+        echo "Deleting File for Batch"
+        rm batch.slurm
+        i=1
+        fileCounter=$((fileCounter+1))
+    fi
   fi
 done < "$1"

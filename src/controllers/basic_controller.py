@@ -80,11 +80,13 @@ class BasicMAC:
         if self.args.reshape:
             inputs = []
             inputs.append(batch["obs"][:, t])  # b1av
+            # print(inputs.shape)
             if self.args.obs_last_action:
                 if t == 0:
                     inputs.append(th.zeros_like(batch["actions_onehot"][:, t]))
                 else:
                     inputs.append(batch["actions_onehot"][:, t-1])
+                    # print(batch["actions_onehot"][:, t-1])
             if self.args.obs_agent_id:
                 inputs.append(th.eye(self.n_agents, device=batch.device).unsqueeze(0).expand(bs, -1, -1))
 
