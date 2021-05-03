@@ -13,7 +13,6 @@ fileCounter=1
 i=1
 while IFS= read -r line
 do
-  echo ${line:0:1}
   if [[ ${line:0:1} == "#" || ${line:0:1} == "" ]] ;
   then  echo "Skipped Line"
   else

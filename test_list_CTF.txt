@@ -1,0 +1,6 @@
+python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid with w=0.5 name=wqmix_CTF
+python src/main.py --config=lica_ctf --env-config=ctf_grid with name=lica_CTF
+python src/main.py --config=qtran_ctf --env-config=ctf_grid with name=qtran_CTF
+python src/main.py --config=qmix_ctf --env-config=ctf_grid with name=qmix_CTF
+python src/main.py --config=liir_ctf --env-config=ctf with name=liir_CTF
+python src/main.py --config=coma_ctf --env-config=ctf with name=coma_CTF

@@ -21,22 +21,22 @@ class LIIRCritic(nn.Module):
         self.fc3_v_mix = nn.Linear(128, 1)
 
         self.fc4 = nn.Linear(128*self.n_agents,1)
-    
+
     def forward(self, batch, t=None):
         inputs = self._build_inputs(batch, t=t) #(bs, eplen, nagts, fea_len)
         x_1 = F.relu(self.fc1(inputs)) # (bs, eplen, nagts, 128)
         x_1 = F.relu(self.fc2(x_1)) # (bs, eplen, nagts, 128)
         v_mix = self.fc3_v_mix(x_1) # (bs, eplen, nagts)
-        
+
         max_t = batch.max_seq_length if t is None else 1
-        
+
         x1 = x_1.reshape(self.args.batch_size, max_t,-1) #(bs, eplen, nagts*128)
         v_ex =  self.fc4(x1)  # (bs, eplen, 1)
         x = ( self.fc3_r_in(x_1) ) # (bs, eplen, nagts, nactions)
         x1= x/10.
         x2 = F.tanh(x1)
         r_in = x2*10.
-   
+
         return r_in, v_mix, v_ex
 
     def _build_inputs(self, batch, t=None):
@@ -83,4 +83,3 @@ class LIIRCritic(nn.Module):
         # agent id
         input_shape += self.n_agents
         return input_shape
-    
