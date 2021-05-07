@@ -1,62 +1,62 @@
 
-python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
-python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
-python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
-python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
-python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
-python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
-python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
-python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
-python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
-python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
-python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
-python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
-python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
-python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
-python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
-python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
-python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
-python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
-python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
-python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
-python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
-python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
-python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
-python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
-python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
-python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
-python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
-python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
-python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
-python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
 ################################################################################
-python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
-python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
-python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
-python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
-python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
-python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
-python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
-python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
-python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
-python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
-python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
-python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
-python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
-python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
-python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
-python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
-python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
-python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
-python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
-python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
-python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
-python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
-python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
-python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
-python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
-python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
-python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
-python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
-python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
-python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 2; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 2; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000

@@ -1,185 +1,185 @@
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000
 ################################################################################
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000
 ################################################################################
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=5m_vs_6m w=0.5 name=wqmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=5m_vs_6m name=qtran_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=qmix_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=coma_5m_vs_6m t_max=2000000
 ################################################################################
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=2c_vs_64zg w=0.5 name=wqmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qtran_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=qmix_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=coma_2c_vs_64zg t_max=2000000
 ################################################################################
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z w=0.5 name=wqmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qtran_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=qmix_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=coma_3s5z_vs_3s6z t_max=5000000
 ################################################################################
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
-python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
-python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
-python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
-python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
-python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
-python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=MMM2 w=0.5 name=wqmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=MMM2 name=qtran_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=MMM2 name=qmix_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=MMM2 name=coma_MMM2 t_max=5000000
