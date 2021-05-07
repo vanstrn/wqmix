@@ -1,0 +1,119 @@
+
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000
+################################################################################
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000
+################################################################################
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=5m_vs_6m name=lica_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=5m_vs_6m name=liir_5m_vs_6m t_max=2000000
+################################################################################
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2c_vs_64zg name=lica_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000
+################################################################################
+
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=lica_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z_vs_3s6z name=liir_3s5z_vs_3s6z t_max=5000000
+################################################################################
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=MMM2 name=lica_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=MMM2 name=liir_MMM2 t_max=5000000
+
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=MAP with name=lica_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=MAP with name=liir_PP t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=CN with name=lica_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=CN with name=liir_CN t_max=1000000
+
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=8m name=lica_8m t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=8m name=lica_8m t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=8m name=lica_8m t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=8m name=lica_8m t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=8m name=lica_8m t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=8m name=liir_8m t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=8m name=liir_8m t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=8m name=liir_8m t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=8m name=liir_8m t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=8m name=liir_8m t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2s3z name=lica_2s3z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2s3z name=lica_2s3z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2s3z name=lica_2s3z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2s3z name=lica_2s3z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=2s3z name=lica_2s3z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2s3z name=liir_2s3z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2s3z name=liir_2s3z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2s3z name=liir_2s3z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2s3z name=liir_2s3z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2s3z name=liir_2s3z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z name=lica_3s5z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z name=lica_3s5z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z name=lica_3s5z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z name=lica_3s5z t_max=1000000
+sleep 2; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=3s5z name=lica_3s5z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z name=liir_3s5z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z name=liir_3s5z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z name=liir_3s5z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z name=liir_3s5z t_max=1000000
+sleep 2; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=3s5z name=liir_3s5z t_max=1000000
