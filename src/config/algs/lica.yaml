@@ -8,9 +8,8 @@ mask_before_softmax: True # set to True for entropy regularization
 
 runner: "episode"
 
-buffer_size: 5000
+buffer_size: 512
 batch_size_run: 1
-batch_size: 32
 
 td_lambda: 0.8
 

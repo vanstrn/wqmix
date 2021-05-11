@@ -8,9 +8,8 @@ mask_before_softmax: False
 
 runner: "episode"
 
-buffer_size: 1000
+buffer_size: 512
 batch_size_run: 1
-batch_size: 8
 
 env_args:
   state_last_action: False # critic adds last action internally
