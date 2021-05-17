@@ -1,0 +1,33 @@
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 7; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=corridor w=0.5 name=wqmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 1; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 3; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=corridor name=qtran_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+wait
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 7; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=corridor name=qmix_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 1; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 3; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=corridor name=coma_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+wait
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 7; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=corridor name=lica_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 1; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 3; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=corridor name=liir_corridor t_max=10000000 epsilon_anneal_time=1000000 &
+wait
