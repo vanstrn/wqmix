@@ -2,33 +2,34 @@
 ################################################################################
 export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=0; sleep 7; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 1; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 3; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 wait
 export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=0; sleep 7; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 1; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 3; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 wait
 #export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 #export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 #export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 #export CUDA_VISIBLE_DEVICES=0; sleep 7; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 #export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=lica --env-config=sc2 with env_args.map_name=27m_vs_30m name=lica_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 1; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
-export CUDA_VISIBLE_DEVICES=1; sleep 3; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+
+export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=qmix_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=qmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=coma_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=coma_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=ow_qmix --env-config=sc2 with env_args.map_name=27m_vs_30m w=0.5 name=wqmix_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=qtran --env-config=sc2 with env_args.map_name=27m_vs_30m name=qtran_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
+export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
 export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=27m_vs_30m name=liir_27m_vs_30m t_max=2000000 epsilon_anneal_time=1000000 &
