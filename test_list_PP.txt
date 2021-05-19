@@ -1,52 +1,42 @@
 
-sleep 01; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000 &
-sleep 10; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000 &
-sleep 20; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000 &
-sleep 30; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000 &
-sleep 10; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000 &
-sleep 20; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000 &
-sleep 30; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000 &
-sleep 10; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000 &
-sleep 20; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000 &
-sleep 30; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000 &
-sleep 10; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000 &
-sleep 20; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000 &
-sleep 30; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000 &
-sleep 10; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000 &
-sleep 20; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000 &
-sleep 30; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000 &
-wait
-################################################################################
-sleep 01; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000 &
-sleep 10; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000 &
-sleep 20; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000 &
-sleep 30; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000 &
-sleep 10; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000 &
-sleep 20; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000 &
-sleep 30; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000 &
-sleep 10; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000 &
-sleep 20; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000 &
-sleep 30; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000 &
-sleep 10; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000 &
-sleep 20; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000 &
-sleep 30; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000 &
-wait
-sleep 01; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000 &
-sleep 10; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000 &
-sleep 20; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000 &
-sleep 30; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000 &
-wait
+sleep 01; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 10; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 20; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 30; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 01; python src/main.py --config=ow_qmix --env-config=MAP with w=0.5 name=wqmix_PP t_max=1000000
+sleep 10; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 20; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 30; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 01; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 10; python src/main.py --config=qtran --env-config=MAP with name=qtran_PP t_max=1000000
+sleep 20; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 30; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 01; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 10; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 20; python src/main.py --config=qmix_smac --env-config=MAP with name=qmix_PP t_max=1000000
+sleep 30; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 01; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 10; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 20; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+sleep 30; python src/main.py --config=coma_smac --env-config=MAP with name=coma_PP t_max=1000000
+##############################################################################
+sleep 01; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 10; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 20; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 30; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 01; python src/main.py --config=ow_qmix --env-config=CN with w=0.5 name=wqmix_CN t_max=1000000
+sleep 10; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 20; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 30; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 01; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 10; python src/main.py --config=qtran --env-config=CN with name=qtran_CN t_max=1000000
+sleep 20; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 30; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 01; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 10; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 20; python src/main.py --config=qmix_smac --env-config=CN with name=qmix_CN t_max=1000000
+sleep 30; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 01; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 10; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 20; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
+sleep 30; python src/main.py --config=coma_smac --env-config=CN with name=coma_CN t_max=1000000
