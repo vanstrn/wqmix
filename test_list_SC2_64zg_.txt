@@ -1,0 +1,6 @@
+
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000 epsilon_anneal_time=1000000 buffer_size=512 &
+export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000 epsilon_anneal_time=1000000 buffer_size=512 &
+export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000 epsilon_anneal_time=1000000 buffer_size=512 &
+export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=liir_smac --env-config=sc2 with env_args.map_name=2c_vs_64zg name=liir_2c_vs_64zg t_max=2000000 epsilon_anneal_time=1000000 buffer_size=512 &
+wait
