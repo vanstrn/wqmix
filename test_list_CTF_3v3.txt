@@ -1,0 +1,12 @@
+
+export CUDA_VISIBLE_DEVICES=0; sleep 1; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_5 critic_lr=0.0005 lr=0.0005 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=0; sleep 3; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_5 critic_lr=0.0005 lr=0.0005 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=0; sleep 5; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_5 critic_lr=0.0005 lr=0.0005 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=0; sleep 7; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_5 critic_lr=0.0005 lr=0.0005 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=0; sleep 9; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_5 critic_lr=0.0005 lr=0.0005 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+
+export CUDA_VISIBLE_DEVICES=1; sleep 1; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_1 critic_lr=0.0001 lr=0.0001 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=1; sleep 3; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_1 critic_lr=0.0001 lr=0.0001 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=1; sleep 5; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_1 critic_lr=0.0001 lr=0.0001 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=1; sleep 7; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_1 critic_lr=0.0001 lr=0.0001 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
+export CUDA_VISIBLE_DEVICES=1; sleep 9; python src/main.py --config=ow_qmix_ctf --env-config=ctf_grid_v2 with w=0.1 name=wqmix_CTF_3cv3_1 critic_lr=0.0001 lr=0.0001 env_args.elements.NUM_BLUE=2 env_args.elements.NUM_BLUE_UAV=1 &
